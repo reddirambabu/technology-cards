@@ -1,0 +1,44 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+
+.card {
+  background-color: whitesmoke;
+  width: 230px;
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  border-radius: 12px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.image {
+  width: 75px;
+  align-self: flex-end;
+}
+.card-heading {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 800px;
+  color: blue;
+}
+.description {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500px;
+  color: grey;
+}
